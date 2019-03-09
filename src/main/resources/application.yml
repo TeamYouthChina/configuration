@@ -1,0 +1,64 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:TeamYouthChina/configuration.git
+          private-key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            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
+            -----END RSA PRIVATE KEY-----
+
+          search-paths: configs/
+          ignoreLocalSshSettings: true
